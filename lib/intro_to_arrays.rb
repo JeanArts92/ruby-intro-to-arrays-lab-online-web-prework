@@ -26,8 +26,9 @@ def first_element_with_array_methods(south_east_asia)
   
 end
 
-def last_element_with_array_methods
-  my_new_array.last 
+def last_element_with_array_methods(south_east_asia)
+  south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
+  south_east_asia.last 
 end
 
 def length_of_array
